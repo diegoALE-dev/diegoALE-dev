@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="banner-title banner-desc">
+  <title id="banner-title">Diego Ale: software, datos y curiosidad</title>
+  <desc id="banner-desc">Banner oscuro con acentos turquesa y violeta, un saludo, la frase Crear, aprender, iterar y una ventana de terminal.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#091326"/>
+      <stop offset="53%" stop-color="#101b37"/>
+      <stop offset="100%" stop-color="#21153b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#25d7df"/>
+      <stop offset="100%" stop-color="#ad75f8"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#6e54c8" stop-opacity=".34"/>
+      <stop offset="100%" stop-color="#6e54c8" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="outer"><rect width="1200" height="330" rx="23"/></clipPath>
+  </defs>
+  <g clip-path="url(#outer)">
+    <rect width="1200" height="330" fill="url(#bg)"/>
+    <circle cx="975" cy="168" r="345" fill="url(#glow)"/>
+    <circle cx="100" cy="30" r="225" fill="url(#glow)" opacity=".34"/>
+    <g opacity=".17" fill="none" stroke="#75b6e6" stroke-width="1">
+      <path d="M0 64 H312 M0 274 H504 M598 0 V65 H715 M1200 292 H1030 M1200 68 H1080"/>
+      <path d="M0 104 H35 V155 H80 M1200 248 H1164 V214 H1133"/>
+      <circle cx="310" cy="64" r="3" fill="#75b6e6"/>
+      <circle cx="503" cy="274" r="3" fill="#75b6e6"/>
+      <circle cx="80" cy="155" r="3" fill="#75b6e6"/>
+      <circle cx="1133" cy="214" r="3" fill="#75b6e6"/>
+    </g>
+    <rect x="55" y="44" width="40" height="40" rx="12" fill="#182b47" stroke="#3fe1e4" stroke-opacity=".7"/>
+    <text x="75" y="71" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#aff6f0">D.</text>
+    <text x="111" y="69" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2.6" fill="#74e0e5">DEVELOPER JOURNAL</text>
+    <text x="56" y="155" font-family="DejaVu Sans, Arial, sans-serif" font-size="54" font-weight="700" fill="#f5f7ff">Hola, soy Diego.</text>
+    <rect x="57" y="176" width="74" height="4" rx="2" fill="url(#accent)"/>
+    <text x="56" y="210" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="600" fill="#c7d9f7">Software <tspan fill="#60e1df">/</tspan> Datos <tspan fill="#60e1df">/</tspan> Curiosidad</text>
+    <text x="56" y="253" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" fill="#a6b7cf">Crear. Aprender. Iterar.</text>
+    <text x="56" y="289" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#b0bed3">Una idea, un experimento, un commit a la vez.</text>
+
+    <rect x="772" y="42" width="368" height="245" rx="15" fill="#0a1427" stroke="#375070" stroke-width="1.5"/>
+    <rect x="772" y="42" width="368" height="42" rx="15" fill="#15253c"/>
+    <rect x="772" y="67" width="368" height="17" fill="#15253c"/>
+    <circle cx="797" cy="63" r="6" fill="#f16e7c"/>
+    <circle cx="819" cy="63" r="6" fill="#f6c56b"/>
+    <circle cx="841" cy="63" r="6" fill="#65d8b4"/>
+    <text x="956" y="68" font-family="DejaVu Sans Mono, monospace" font-size="13" text-anchor="middle" fill="#98a9c5">diego@github: ~</text>
+    <g font-family="DejaVu Sans Mono, monospace" font-size="16">
+      <text x="800" y="113" fill="#63e6db">$ whoami</text>
+      <text x="800" y="137" fill="#e1e9fb">curious_builder</text>
+      <text x="800" y="171" fill="#63e6db">$ current_focus</text>
+      <text x="800" y="195" fill="#e1e9fb">software + data</text>
+      <text x="800" y="229" fill="#63e6db">$ next_step</text>
+      <text x="800" y="252" fill="#c69cff">keep_building_</text>
+    </g>
+    <rect x="969" y="258" width="11" height="3" rx="1" fill="#63e6db">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.7s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0" y="323" width="1200" height="7" fill="url(#accent)"/>
+  </g>
+</svg>
